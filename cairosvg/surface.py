@@ -6,7 +6,8 @@ Cairo surface creators.
 import copy
 import io
 
-import cairocffi as cairo
+#import cairocffi as cairo
+import cairo
 
 from .colors import color, negate_color
 from .defs import (
